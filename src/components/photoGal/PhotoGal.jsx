@@ -1,7 +1,7 @@
 import React from 'react'
-import HeadingTitle from "/src/components/headingTitle/HeadingTitle";
-import BoxOption from "/src/components/boxOption/BoxOption";
-import {Photo} from "/src/Category";
+import HeadingTitle from "../../components/headingTitle/HeadingTitle";
+import BoxOption from "../../components/boxOption/BoxOption";
+import {Photo} from "../../Category";
 import {MdVisibility} from "react-icons/md";
 import {FaQuoteLeft} from "react-icons/fa";
 import "./photoGal.scss";

@@ -1,9 +1,9 @@
 import React from 'react'
-import {WorldNews, Technology, LifeStyle } from "/src/Category";
+import {WorldNews, Technology, LifeStyle } from "../../Category";
 import "./mainBody.scss";
-import StyleOne from "/src/components/styleOne/StyleOne";
-import StyleTwo from "/src/components/styleTwo/StyleTwo";
-import Widget from "/src/components/widget/Widget";
+import StyleOne from "../../components/styleOne/StyleOne";
+import StyleTwo from "../../components/styleTwo/StyleTwo";
+import Widget from "../../components/widget/Widget";
 import {FaRegEnvelopeOpen} from "react-icons/fa";
 import {RiSendPlaneFill} from "react-icons/ri";
 

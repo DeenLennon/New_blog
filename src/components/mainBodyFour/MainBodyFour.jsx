@@ -1,8 +1,8 @@
 import React from 'react';
-import StyleTwo from "/src/components/styleTwo/StyleTwo";
-import StyleOne from "/src/components/styleOne/StyleOne";
+import StyleTwo from "../../components/styleTwo/StyleTwo";
+import StyleOne from "../../components/styleOne/StyleOne";
 import StyleThree from '/src/components/styleThree/StyleThree';
-import {Politics, Entertainment} from "/src/Category";
+import {Politics, Entertainment} from "../../Category";
 import "./mainBodyFour.scss";
 
 function MainBodyFour() {

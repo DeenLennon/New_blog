@@ -1,7 +1,7 @@
 import React from 'react';
-import StyleOne from "/src/components/styleOne/StyleOne";
-import StyleTwo from "/src/components/styleTwo/StyleTwo";
-import {HealthFitness, LifeStyle} from "/src/Category";
+import StyleOne from "../../components/styleOne/StyleOne";
+import StyleTwo from "../../components/styleTwo/StyleTwo";
+import {HealthFitness, LifeStyle} from "../../Category";
 import "./mainBodyThree.scss";
 
 function MainBodyThree() {

@@ -1,19 +1,19 @@
 import React from 'react';
 import "./home.scss";
-import NavbarTop from "/src/components/navbarTop/NavbarTop";
-import AdvertTop from "/src/components/advertTop/AdvertTop";
-import NavbarBottom from "/src/components/navbarBottom/NavbarBottom";
-import Hotlinks from "/src/components/hotlinks/Hotlinks";
-import MainContent from "/src/components/mainContent/MainContent";
-import MainBody from "/src/components/mainBody/MainBody";
-import MainBodyTwo from '/src/components/mainBodyTwo/MainBodyTwo';
-import MainBodyThree from '/src/components/mainBodyThree/MainBodyThree';
-import AudioVideo from '/src/components/audioVideo/AudioVideo';
-import AdvertLarge from '/src/components/advertLarge/AdvertLarge';
-import MainBodyFour from '/src/components/mainBodyFour/MainBodyFour';
-import FoodRecipe from '/src/components/foodRecipe/FoodRecipe';
-import PhotoGal from '/src/components/photoGal/PhotoGal';
-import Footer from '/src/components/footer/Footer';
+import NavbarTop from "../../components/navbarTop/NavbarTop";
+import AdvertTop from "../../components/advertTop/AdvertTop";
+import NavbarBottom from "../../components/navbarBottom/NavbarBottom";
+import Hotlinks from "../../components/hotlinks/Hotlinks";
+import MainContent from "../../components/mainContent/MainContent";
+import MainBody from "../../components/mainBody/MainBody";
+import MainBodyTwo from '../../components/mainBodyTwo/MainBodyTwo';
+import MainBodyThree from '../../components/mainBodyThree/MainBodyThree';
+import AudioVideo from '../../components/audioVideo/AudioVideo';
+import AdvertLarge from '../../components/advertLarge/AdvertLarge';
+import MainBodyFour from '../../components/mainBodyFour/MainBodyFour';
+import FoodRecipe from '../../components/foodRecipe/FoodRecipe';
+import PhotoGal from '../../components/photoGal/PhotoGal';
+import Footer from '../../components/footer/Footer';
 
 function Home() {
   return (

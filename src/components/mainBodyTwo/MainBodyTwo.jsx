@@ -1,7 +1,7 @@
 import React from 'react';
-import StyleTwo from "/src/components/styleTwo/StyleTwo";
-import StyleOne from "/src/components/styleOne/StyleOne";
-import {Finance, Sports} from "/src/Category";
+import StyleTwo from "../../components/styleTwo/StyleTwo";
+import StyleOne from "../../components/styleOne/StyleOne";
+import {Finance, Sports} from "../../Category";
 import {FaRegNewspaper} from "react-icons/fa";
 import {GoMegaphone} from "react-icons/go";
 import "./mainBodyTwo.scss";

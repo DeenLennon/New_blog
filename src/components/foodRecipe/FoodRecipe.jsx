@@ -1,7 +1,7 @@
 import React from 'react';
-import HeadingTitle from "/src/components/headingTitle/HeadingTitle";
-import BoxOption from '/src/components/boxOption/BoxOption';
-import {Food} from "/src/Category";
+import HeadingTitle from "../../components/headingTitle/HeadingTitle";
+import BoxOption from '../../components/boxOption/BoxOption';
+import {Food} from "../../Category";
 import "./foodRecipe.scss";
 
 function FoodRecipe() {

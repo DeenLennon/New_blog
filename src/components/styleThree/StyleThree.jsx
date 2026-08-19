@@ -1,5 +1,5 @@
 import React from 'react'
-import HeadingTitle from "/src/components/headingTitle/HeadingTitle";
+import HeadingTitle from "../../components/headingTitle/HeadingTitle";
 import "./styleThree.scss";
 
 function StyleThree() {
