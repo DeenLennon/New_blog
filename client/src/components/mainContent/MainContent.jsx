@@ -2,17 +2,17 @@ import React from "react";
 import "./mainContent.scss";
 import {MdFlashOn} from "react-icons/md";
 
-import usukrain from "/assets/usUkraine.jpg"; 
-import banner2 from "/assets/banner-02.jpg"; 
-import banner3 from "/assets/banner-03.jpg"; 
-import banner4 from "/assets/banner-04.jpg"; 
+const usUkraine = `${import.meta.env.BASE_URL}assets/usUkraine.jpg`;
+const banner2 = `${import.meta.env.BASE_URL}assets/banner-02.jpg;`
+const banner3 = `${import.meta.env.BASE_URL}assets/banner-03.jpg;`
+const banner4 = `${import.meta.env.BASE_URL}assets/banner-04.jpg;`
 
 const MainContent= () =>{
     return(
         <div className="mainContent">
             <div className="col">
                 <div className="row">
-                    <img src={usukrain} alt="" />
+                   <img src={usUkraine} alt="US Ukraine" />
                     <a href="#" className="cat">Politics</a>
                     <a href="#" className="icon"> <MdFlashOn style={{fontSize: "20px"}}/> </a>
                     <div className="postInfo">

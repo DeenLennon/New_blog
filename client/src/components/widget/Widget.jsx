@@ -1,5 +1,5 @@
 import React from 'react';
-import Add from "/assets/ad-300x250-1.jpg"
+// import Add from "/assets/ad-300x250-1.jpg"
 import {FaFacebookF, FaShareAlt, FaTwitter} from "react-icons/fa";
 import {ImGooglePlus} from "react-icons/im";
 import {GiRss} from "react-icons/gi";
@@ -8,6 +8,7 @@ import {TfiYoutube} from "react-icons/tfi";
 import "./widget.scss";
 
 function Widget() {
+  const Add = `${import.meta.env.BASE_URL}assets/newUpdate.mp4`;
   return (
     <div className='widget'>
       <div className="top">

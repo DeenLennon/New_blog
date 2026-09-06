@@ -1,5 +1,6 @@
 import React from 'react'
 import HeadingTitle from "../../components/headingTitle/HeadingTitle";
+const newUpdate = `${import.meta.env.BASE_URL}assets/newUpdate.mp4`;
 import "./audioVideo.scss";
 
 function AudioVideo() {
@@ -10,7 +11,7 @@ function AudioVideo() {
             <div className="body">
                 <div className="videoWrapper">
                     <video width="100%" controls autoPlay loop>
-                        <source src="/assets/newUpdate.mp4" type="video/mp4"/>
+                        <source src={newUpdate} type="video/mp4"/>
                     </video>
                 </div>
                 <div className="listWrapper">

@@ -1,9 +1,10 @@
 import React from "react";
 import "./advertTop.scss";
-import logo from "/assets/logo.png";
-import advert from "/assets/advertttt.gif";
+
 
 const AdvertTop = () => {
+    const advert = `${import.meta.env.BASE_URL}assets/advertttt.gif`;
+    const logo = `${import.meta.env.BASE_URL}assets/logo.png`;
     return(
         <div className="advertTop">
             <div className="advertTopContainer">
